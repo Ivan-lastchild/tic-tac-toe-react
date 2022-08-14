@@ -1,0 +1,27 @@
+.gameField{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fieldHeader{
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.rows{
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newGameBtn{
+    text-align: center;
+    margin-top: 10px;
+    width: 75%;
+    height: 20px;
+}
